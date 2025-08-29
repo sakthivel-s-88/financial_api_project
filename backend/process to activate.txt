@@ -1,0 +1,10 @@
+Create the virtual environment:
+uv venv -p /opt/homebrew/bin/python3.13 backend/.venv
+Activate the environment:
+source backend/.venv/bin/activate
+Install the dependencies:
+uv pip install -r backend/requirements.txt
+Build the knowledge base:
+python -m backend.tasks.ingest_data
+Run the API server:
+uvicorn backend.main:app --reload

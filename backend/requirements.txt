@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+langchain-community
+langchain-google-genai
+yfinance
+chromadb
+beautifulsoup4
+pandas
+pandas-ta
+feedparser
